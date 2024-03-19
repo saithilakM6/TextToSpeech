@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="5width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>TTS</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>Text-to-Speech</header>
+        <form>
+            <div class="row">
+                <label for="text">Text to Convert:</label>
+                <textarea id="text" rows="5" placeholder="Enter text..."></textarea>
+            </div>
+            <div class="row">
+                <label for="voiceList">Select a Voice:</label>
+                <select id="voiceList"></select>
+            </div>
+            <button class="speech-btn" id="speechBtn" type="button">Convert To Speech</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
